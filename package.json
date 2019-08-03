@@ -1,0 +1,32 @@
+    {
+        "name": "ls-view-text-count",
+        "version": "v1.0.0",
+        "private": false,
+        "main": "src/count.js",
+        "description": "Litespeed.js view component that adds a word counter to your input elements.",
+        "homepage": "https://github.com/litespeed-js/ls-view-text-count",
+        "bugs": "https://github.com/litespeed-js/ls-view-text-count/issues",
+        "license": "MIT",
+        "jsdelivr": "src/count.js",
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/litespeed-js/ls-view-text-count.git"
+        },
+        "keywords": [
+            "litespeed",
+            "framework",
+            "lite",
+            "speed",
+            "lightspeed",
+            "light",
+            "javascript"
+        ],
+        "dependencies": {},
+        "devDependencies": {
+            "litespeed.js": "0.3.3",
+            "jest": "^24.8.0"
+        },
+        "scripts": {
+            "test": "jest tests"
+        }
+    }
