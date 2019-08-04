@@ -8,7 +8,7 @@
             controller: function (element) {
                 let counter = document.createElement('span');
 
-                counter.className = 'counter';
+                counter.className = 'ls-view-text-count';
 
                 element.parentNode.insertBefore(counter, element.nextSibling);
 

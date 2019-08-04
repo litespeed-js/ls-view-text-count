@@ -13,7 +13,7 @@ test('counter with maxlength', () => {
         window.ls.run(window);
 
         return document.body.innerHTML.trim();
-    }()).toEqual('<input type="text" value="Hello World!" maxlength="20"><span class="counter">8 / 20</span>');
+    }()).toEqual('<input type="text" value="Hello World!" maxlength="20"><span class="ls-view-text-count">8 / 20</span>');
 });
 
 test('counter without maxlength', () => {
@@ -25,5 +25,5 @@ test('counter without maxlength', () => {
         window.ls.run(window);
 
         return document.body.innerHTML.trim();
-    }()).toEqual('<input type="text" value="Hello World!"><span class="counter">2 words and 12 chars</span>');
+    }()).toEqual('<input type="text" value="Hello World!"><span class="ls-view-text-count">2 words and 12 chars</span>');
 });
