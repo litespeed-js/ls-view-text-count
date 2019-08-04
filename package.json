@@ -23,8 +23,8 @@
     ],
     "dependencies": {},
     "devDependencies": {
-        "litespeed.js": "0.3.3",
-        "jest": "^24.8.0"
+        "jest": "^24.8.0",
+        "litespeed.js": "^0.3.6"
     },
     "scripts": {
         "test": "jest tests"

@@ -6,19 +6,21 @@
             selector: 'data-ls-text-count',
             repeat: false,
             controller: function (element) {
-                var counter = document.createElement('span');
+                let counter = document.createElement('span');
 
                 counter.className = 'counter';
 
                 element.parentNode.insertBefore(counter, element.nextSibling);
 
                 var count = function () {
-                    if (0 <= element.maxLength) {
-                        counter.innerText = (element.maxLength - element.value.length).toString() + ' / ' + element.maxLength;
+                    let max = parseInt(element.getAttribute('maxlength'));
+                    
+                    if (0 <= max) {
+                        counter.textContent = (max - element.value.length).toString() + ' / ' + max;
                     }
                     else {
-                        var words = (element.value !== '') ? element.value.trim().split(' ').length : 0;
-                        counter.innerText = words + ' words and ' + element.value.length.toString() + ' chars';
+                        let words = (element.value !== '') ? element.value.trim().split(' ').length : 0;
+                        counter.textContent = words + ' words and ' + element.value.length.toString() + ' chars';
                     }
                 };
 

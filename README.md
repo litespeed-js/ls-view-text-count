@@ -22,6 +22,10 @@ Install with CDN:
 <script src="https://cdn.jsdelivr.net/npm/ls-view-text-count"></script>
 ```
 
+## Options & Behaviour
+
+When input maxlength attribute is defined, the counter will show remaining chars left until the limit is going to be reached. When no maxlength attribute is set, the counter will just count how many word and chars have been written.
+
 ## Contributing
 
 All code contributions - including those of people having commit access - must go through a pull request and approved by a core developer before being merged. This is to ensure proper review of all the code.
