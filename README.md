@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/dt/litespeed.js.svg)
 [![npm version](https://badge.fury.io/js/ls-view-text-count.svg)](https://badge.fury.io/js/ls-view-text-count)
-[![Build Status](https://travis-ci.org/litespeed-js/litespeed.js.svg?branch=master)](https://travis-ci.org/litespeed-js/ls-view-text-count)
+[![Build Status](https://travis-ci.org/litespeed-js/ls-view-text-count.svg?branch=master)](https://travis-ci.org/litespeed-js/ls-view-text-count)
 [![Chat With Us](https://img.shields.io/gitter/room/litespeed-js/community.svg)](https://gitter.im/litespeed-js/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 Litespeed.js view component that adds a word counter to your input elements.
